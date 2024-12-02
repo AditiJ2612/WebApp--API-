@@ -1,0 +1,20 @@
+config:
+  Assignment4:cidrBlock: 10.0.0.0/16
+  Assignment4:interGateway: InternetGateway
+  Assignment4:dialect: mysql
+  Assignment4:port: "3306"
+  Assignment4:privateRouteT: PrivateRouteTable
+  Assignment4:privateSubnets: PrivateSubnet
+  Assignment4:pubSubnet: public-subnet
+  Assignment4:publicRouteT: PublicRouteTable
+  Assignment4:publicSubnets: PublicSubnet
+  Assignment4:vpcName: AditiVpc
+  aws:profile: demoAccount
+  aws:region: us-east-1
+  publickeygen: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC48exjPUT+PLiCFcW+9FwplZywBUfSP4HxZ9yFreBODsUDCiu7Q40vVN4i1LOZTehg0rxcq5yUNkNjkvjzG8zBDPMhDXgC/bGSPxl14UlhCPHaIVDMi0/bkUbayAwoPcb6B6c57G9RNOJUUDz/uPac5TXuymuqFMKDPp9AueRSs8+fvgQMrd5Vs370zSUjj/O66Nsd9Hn8iIxyMgx5HQNiQW1xWH6wl/GfZDdX7jgH9sRLJ56mXcmGFUr2Hi4rReohxRpeq298h1B9LMmIEmc+PRnHqBAfSoW5BvHjoaB1MONsfIb7ZAHBrbOWgVI/tt4KocoV/m1Qvd8cSXLNxnaL5gsyrxvznlJTII+jlRvegPlyTin4CQjgDOuytSVDlW88qO8bAll7Y9cRb/f0ueaaxbWul7Z2PEqBFHYjqoa/0rQjTc9zmVYWgzVEu+01ITpw3tOgCFbFOMXiVNp9PYYm3S59npwYsZO7gkMgEihliDAyMg3gLgys16lisghWGzU= admin@DESKTOP-HA4HHKM
+  amiId: ami-01c669e6b4b9be882
+  gcp:project: democsye6225-406421
+  sourceEmail: aditi.jajoo26@aditij.me
+  zoneId: Z005655117O26S6K515N
+  certificatearn: arn:aws:acm:us-east-1:338923190807:certificate/75b77f16-9051-4707-adfb-749b87b5748d
+

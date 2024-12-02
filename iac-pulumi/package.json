@@ -1,0 +1,13 @@
+{
+    "name": "Assignment4",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^16"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^5.0.0",
+        "@pulumi/awsx": "^1.0.0",
+        "@pulumi/gcp": "^7.2.1",
+        "@pulumi/pulumi": "^3.94.2"
+    }
+}
